@@ -7,13 +7,14 @@ main-nav:
     url: "#organization"
 ---
 
-![VisLies 2018!](images/VisLiesLogo2018.png)
+![VisLies 2021!](images/VisLiesLogo2021.png)
 
-# VisLies 2018
+# VisLies 2021
 
-**Tuesday October 23** 12:30 – 2:00 PM<br />
-Held in conjunction with IEEE VIS 2018<br />
-Estrel Hotel & Congress Center, Room 30310<br />
+**Location time TBA**  
+<!-- **Tuesday October 26** 12:30 – 2:00 PM<br /> -->
+Held in conjunction with IEEE VIS 2021  
+<!-- Estrel Hotel & Congress Center, Room 30310<br /> -->
 
 This fun and engaging event showcases examples of egregious perceptual,
 cognitive, and conceptual errors in visualization, presented by members of
@@ -72,13 +73,13 @@ There are lots of great reasons to present at VisLies.
 ### Submission
 
 Becoming part of VisLies is easy. Simply send an email to
-<a href="mailto:vislies2018@vislies.org">vislies2018@vislies.org</a> with
+<a href="mailto:vislies2021@vislies.org">vislies2021@vislies.org</a> with
 your name and a note that you want to present. That's it.
 
 ## Organization
 
 Questions? Contact us at
-<a href="mailto:vislies2018@vislies.org">vislies2018@vislies.org</a>.
+<a href="mailto:vislies2021@vislies.org">vislies2021@vislies.org</a>.
 
 | ![Bernice Rogowitz](images/Bernice.jpg) | ![Kenneth Moreland](images/Ken.jpg) |
 | <a href="https://sites.google.com/site/bernicerogowitz/">Bernice Rogowitz</a> | <a href="http://www.kennethmoreland.com/">Kenneth Moreland</a> |
