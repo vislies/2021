@@ -11,9 +11,11 @@ main-nav:
 
 # VisLies 2021
 
-**Location time TBA**  
-<!-- **Tuesday October 26** 12:30 – 2:00 PM<br /> -->
+**Tuesday October 26** 3:00 PM US Central Time  
 Held in conjunction with IEEE VIS 2021  
+To join on Zoom, register for IEEE VIS, go to [VisLies! in the virtual
+schedule](https://virtual.ieeevis.org/year/2021/session_m-vislies.html),
+and click on the Zoom link.  
 <!-- Estrel Hotel & Congress Center, Room 30310<br /> -->
 
 This fun and engaging event showcases examples of egregious perceptual,
