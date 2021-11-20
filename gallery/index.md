@@ -5,6 +5,8 @@ gallery-nav:
     url: "#stop-go-and-not-stop"
   - title: Not the Flu
     url: "#not-the-flu"
+  - title: A Bigger Pool
+    url: "#a-bigger-pool"
 ---
 
 # VisLies 2021 Gallery
@@ -58,6 +60,65 @@ But a bigger issue is that the measurement presented in the graphic, percentage 
 To total number of fatalities is determined by both the case fatality rate _and_ the infectivity rate (typically measured by the [R-naught value]).
 A disease with a 100% case fatality might not actually kill a lot of people if it does not spread well.
 In fact, a high fatality might lead to a lower infection rate because victims die before infecting others.
+
+
+## A Bigger Pool
+
+<!--
+The previous VisLie was actually dated.
+This visualization was formed at the beginning of the COVID-19 pandemic when there was neither much understanding nor data available.
+So, we can forgive those hopefuls that were overly optimistic.
+
+But what of today?
+After a year worth of data collection and research, the COVID-19 pandemic, its dangers and recommendations for it, is still a divisive topic.
+Surely, there 
+-->
+
+<a href="https://drive.google.com/file/d/1zXBaNe-TrmmnN3XNNYzuvgCoegmbYpVR/view?usp=sharing" class="image-right">
+<img src="lie.png" class="lie" />
+![](covid-choropleth-thumbnail.jpeg)
+</a>
+
+Continuing on the theme, [Ken Moreland] presented this simple [choropleth map] demonstrating the number of confirmed COVID-19 cases in the US.
+On the surface, this seems like a straightforward representation.
+But on closer inspection, there is a serious problems.
+
+All the numbers are given in terms of absolute cases since the beginning of the pandemic.
+This is misleading for 2 reasons.
+First, this is heavily biased toward the population of the region.
+Higher populations will naturally have larger numbers even if the infection rate is about the same.
+The infections in several of the highly populated states are larger than the entire population of Wyoming.
+The second problem is that the numbers combine an accumulation of a years worth of data.
+That's OK for some questions, such as a post-mortem of the policies from start to end.
+But this might not be very indicative of how things are right _now_.
+This includes many cases at the beginning of COVID-19 where conditions were very different.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1DtBMt9HftF5kHJpB7oyxjJEztKJs0691/view?usp=sharing" class="image-left">
+![](covid-choropleth-better-thumbnail.png)
+</a>
+
+In contrast, here is a similar map that corrects these two problems.
+This map provides numbers per capita and on a sliding 7 day window.
+Where in the first map, CA, TX, and FL were all near the top of the infection rates, recent per capita data says that the CA infection rate is way down, TX is in the middle, and FL (the lowest of the 3) is currently one of the worst in the country.
+I also note that some more sparsely populated areas like West Virginia and the Dakotas look pretty good by absolute numbers but not so great per capita.
+
+It should be pointed out that some VisLies participants noted that the color scale of this plot is a little weird.
+The ranges are oddly precise, there are also odd gaps between each region, and the range for each color is inconsistent.
+Likely, the states and territories were divided into 6 even(ish) groups.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1rCpfrF8bhWgYx8CwFYzfcNeuzhR8Osrj/view?usp=sharing" class="image-right">
+![](correlations-karen-territory-thumbnail.jpg)
+</a>
+
+So, what is so bad about providing data that is not scaled per capita?
+This pithy infographic does a great job describing just what can go wrong.
+In a nutshell, a count of just about anything related to people will be proportional to the population count.
+This means pretty much anything can be "proven" despite how rediculous the relationship might be.
+
 
 [_Time_ magazine article]: https://time.com/5798168/coronavirus-mortality-rate/
 [a blog post by Stephen Tracy]: https://analythical.com/blog/covid19-in-charts
