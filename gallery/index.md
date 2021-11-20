@@ -17,6 +17,7 @@ But, nevertheless we were able to meet virtually and share the fun VisLies we fo
 ## Stop, Go, and Not Stop
 
 <a href="stop-go-and-not-stop.jpg" class="image-right">
+<img src="lie.png" class="lie" />
 ![](stop-go-and-not-stop-thumbnail.jpg)
 </a>
 
@@ -36,6 +37,7 @@ It makes the lowest values look like the highest values.
 ## Not the Flu
 
 <a href="coronavirus-vs-flu-pie.png" class="image-right">
+<img src="lie.png" class="lie" />
 ![](coronavirus-vs-flu-pie-thumbnail.jpg)
 </a>
 
