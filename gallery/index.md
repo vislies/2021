@@ -7,6 +7,8 @@ gallery-nav:
     url: "#not-the-flu"
   - title: A Bigger Pool
     url: "#a-bigger-pool"
+  - title: Correlations and Causations
+    url: "#correlations-and-causations"
 ---
 
 # VisLies 2021 Gallery
@@ -93,8 +95,6 @@ That's OK for some questions, such as a post-mortem of the policies from start t
 But this might not be very indicative of how things are right _now_.
 This includes many cases at the beginning of COVID-19 where conditions were very different.
 
-<div class="image-stop" />
-
 <a href="https://drive.google.com/file/d/1DtBMt9HftF5kHJpB7oyxjJEztKJs0691/view?usp=sharing" class="image-left">
 ![](covid-choropleth-better-thumbnail.png)
 </a>
@@ -108,8 +108,6 @@ It should be pointed out that some VisLies participants noted that the color sca
 The ranges are oddly precise, there are also odd gaps between each region, and the range for each color is inconsistent.
 Likely, the states and territories were divided into 6 even(ish) groups.
 
-<div class="image-stop" />
-
 <a href="https://drive.google.com/file/d/1rCpfrF8bhWgYx8CwFYzfcNeuzhR8Osrj/view?usp=sharing" class="image-right">
 ![](correlations-karen-territory-thumbnail.jpg)
 </a>
@@ -119,10 +117,57 @@ This pithy infographic does a great job describing just what can go wrong.
 In a nutshell, a count of just about anything related to people will be proportional to the population count.
 This means pretty much anything can be "proven" despite how rediculous the relationship might be.
 
-
 [_Time_ magazine article]: https://time.com/5798168/coronavirus-mortality-rate/
 [a blog post by Stephen Tracy]: https://analythical.com/blog/covid19-in-charts
 [total number of SARS deaths during the 2003 outbreak]: https://www.who.int/publications/m/item/summary-of-probable-sars-cases-with-onset-of-illness-from-1-november-2002-to-31-july-2003
 [total number of MERS deaths]: https://applications.emro.who.int/docs/WHOEMCSR471E-eng.pdf?ua=1
 [estimated global seasonal influenza deaths]: https://www.who.int/influenza/Global_Influenza_Strategy_2019_2030_Summary_English.pdf
 [R-naught value]: https://globalhealth.harvard.edu/understanding-predictions-what-is-r-naught/
+
+
+## Correlations and Causations
+
+<a href="vaccines_bad.svg" class="image-right">
+<img src="lie.png" class="lie" />
+![](vaccines_bad.svg)
+</a>
+
+Not satisfied with the lies he found in the wild, [Ken Moreland] constructed a VisLie of his own.
+Using data from the [CDC Data Tracker], he pulled information about the number of people vaccinated in each US state as well as the total number of COVID-19 deaths that occured in the state.
+Plotting these together, we get a clear positive correlation between the two.
+It seems like vaccines are killing the very people they are supposed to protect.
+
+This previous statement is provably false.
+[Studies on COVID-19 vaccine effectiveness] show the opposite: The vaccines are reducing the number of deaths, even [in the face of the delta variant].
+The problem with this plot is the same as the [previous choropleths].
+As before, a count of just about anything related to people will be proportional to the population count.
+This means pretty much anything can be "proven" despite how rediculous the relationship might be.
+
+<a href="vaccines_good.svg" class="image-left">
+![](vaccines_good.svg)
+</a>
+
+This next plot fixes the problem.
+Instead of giving a full count of people vaccinated and dead, the plot measures each of these per capita.
+Now that we have taken population out of the equation, we see the correlation is reversed.
+
+<a href="vaccine-per-infection.jpg" class="image-right">
+![](vaccine-per-infection-thumbnail.jpg)
+</a>
+
+In a demonstration of how tricky these correlations can be, Pat Crossno provided this plot from [a recent publication].
+The plot shows similar metrics from a [similar data set], but the correlation is reversed.
+
+Ken later did a deep dive that looks more closely into this data.
+You can read the details [in his blog].
+In short summary, a big point to note is that this plot is comparing COVID-19 infections rather than COVID-19 deaths, and it is possible that the vaccines are less effective with preventing infections than it is with sickness and death.
+But that said, the measurements for COVID-19 cases are affected by the number of tests being performed.
+So this plot is likely showing that countries that give more vaccinations also test more people.
+
+[CDC Data Tracker]: https://covid.cdc.gov/covid-data-tracker/
+[Studies on COVID-19 vaccine effectiveness]: https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/index.html
+[in the face of the delta variant]: https://dx.doi.org/10.1056/NEJMoa2108891
+[previous choropleths]: #a-bigger-pool
+[a recent publication]: https://link.springer.com/article/10.1007%2Fs10654-021-00808-7
+[similar data set]: https://github.com/owid/covid-19-data/tree/master/public/data
+[in his blog]: http://www.drmoron.org/vaccine-correlations/

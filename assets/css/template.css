@@ -693,33 +693,28 @@ li {
 .image-left {
     float: left;
     padding-right: 5px;
-    clear: both;
     position: relative;
     max-width: 100%;
 }
 .image-right {
     float: right;
     padding-left: 5px;
-    clear: both;
     position: relative;
     max-width: 100%;
 }
 img.image-full {
     width: 100%;
-    clear: both;
     position: relative;
     max-width: 100%;
 }
 img.image-half {
     width: 48%;
     padding: 1%;
-    clear: both;
     max-width: 100%;
 }
 img.image-third {
     width: 31%;
     padding: 1%;
-    clear: both;
     max-width: 100%;
 }
 
