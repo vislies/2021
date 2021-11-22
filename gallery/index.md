@@ -9,6 +9,8 @@ gallery-nav:
     url: "#a-bigger-pool"
   - title: Correlations and Causations
     url: "#correlations-and-causations"
+  - title: Invalid Summary
+    url: "#invalid-summary"
 ---
 
 # VisLies 2021 Gallery
@@ -171,3 +173,29 @@ So this plot is likely showing that countries that give more vaccinations also t
 [a recent publication]: https://link.springer.com/article/10.1007%2Fs10654-021-00808-7
 [similar data set]: https://github.com/owid/covid-19-data/tree/master/public/data
 [in his blog]: http://www.drmoron.org/vaccine-correlations/
+
+
+## Invalid Summary
+
+<a href="conservative-allocation.png" class="image-right">
+![](conservative-allocation-thumbnail.png)
+</a>
+
+[Bernice Rogowitz] had a bone to pick with her brokerage firm. In their mobile app they provide a convient summary of her portfolio like that shown here.
+How convenient!
+The graphic shows that her portfolio is divided among 3 different asset classes and that the portfolio is "Conservative."
+
+But wait.
+A closer look reveals that the largest, orange bar is labeled "unknown."
+That's odd.
+If Bernice is holding positions at her own brokerage firm, how can they be "unknown?"
+
+And if 64% of the positions are "unknown," how are they computing the average risk?
+Fortunately, Bernice is paying more attention to her assets than her brokerage firm and knows that these "unknown" positions are actually  leveraged technology ETFs.
+This means that this "conservative" portfolio is _64% high risk_.
+
+So, the summary provided is completely off base.
+Fortunately, Bernice is knowledgable enough to know that the summary provided is utter nonsense.
+But a more casual investor could be completely mislead with their investments.
+
+[Bernice Rogowitz]: https://sites.google.com/site/bernicerogowitz/
