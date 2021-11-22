@@ -11,6 +11,8 @@ gallery-nav:
     url: "#correlations-and-causations"
   - title: Invalid Summary
     url: "#invalid-summary"
+  - title: Even Worse Pie Chart
+    url: "#even-worse-pie-chart"
 ---
 
 # VisLies 2021 Gallery
@@ -199,3 +201,22 @@ Fortunately, Bernice is knowledgable enough to know that the summary provided is
 But a more casual investor could be completely mislead with their investments.
 
 [Bernice Rogowitz]: https://sites.google.com/site/bernicerogowitz/
+
+
+## Even Worse Pie Chart
+
+<a href="https://drive.google.com/file/d/1oOfviSGYwcZ1S2FBw1Ika9u_RaejozoB/view?usp=sharing" class="image-right">
+![](mutual-fund-pie-thumbnail.png)
+</a>
+
+Speaking of the same brokerage firm app, [Bernice Rogowitz] found even more unsatisfactory presentations.
+VisLies has never been a fan of pie charts, but this mobile app's interface somehow manages to make it worse.
+Looking at the pie chart on the left, you will see that although the meaning of each wedge is listed underneath the pie, there is no indication of which wedge goes with which label. The labels are not attached to the wedges, and there is no color indication next to the labels.
+
+The only way to identify what category is associated with a wedge is to click on it to get a tooltip.
+Can you identify one wedge and then use that to determine the labels for the rest of the wedges based on order?
+Nope.
+The wedge order is not the same as the label order.
+
+So there is no way to make any sense of the chart without individually clicking on each of the wedges one by one.
+Which begs the question, what is the point?
