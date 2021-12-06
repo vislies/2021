@@ -13,6 +13,8 @@ gallery-nav:
     url: "#invalid-summary"
   - title: Even Worse Pie Chart
     url: "#even-worse-pie-chart"
+  - title: Financial Security Blanket
+    url: "#financial-security-blanket"
 ---
 
 # VisLies 2021 Gallery
@@ -220,3 +222,68 @@ The wedge order is not the same as the label order.
 
 So there is no way to make any sense of the chart without individually clicking on each of the wedges one by one.
 Which begs the question, what is the point?
+
+
+## Financial Security Blanket
+
+<img src="quilt-example-1.jpg" class="image-third" />
+<img src="quilt-example-2.jpg" class="image-third" />
+<img src="quilt-example-3.jpg" class="image-third" />
+
+[Bernice Rogowitz]'s woes with finance visualizations did not stop there. Bernice has a bone to pick with a trend for financial consultants: the asset allocation quilt.
+
+(Before continuing, it should be noted that although this section will be touching on looking at various investments, _this is not financial advice_. We are not financial advisors or qualified for financial advice in any ways. We are simply demonstrating data display.)
+
+<a href="https://drive.google.com/file/d/1gyyGeSySye4kgkFYHDxU4u-M9DrN68UA/view?usp=sharing" class="image-right">
+<img src="lie.png" class="lie" />
+![](quilt-thumbnail.jpg)
+</a>
+
+Here is an example of an asset allocation quilt that a financial adviser might show you. (You may need to click on it to see details.) The asset allocation quilt is meant to show you the historical performance of a set of investments that are available and, more to the point, convince you to invest in their strategy that they will mange for you.
+
+If you have not yet been presented with an asset allocation quilt, some explenation is probably nessessary. As you can see, the asset allocation quilt is arranged in a grid. Each column represents a time frame (e.g. a year), and each investment type is listed in the column's cells in the order of performance. Each investiment type is given its own unique color, which makes trends easier to follow (and gives the display its name).
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1gyyGeSySye4kgkFYHDxU4u-M9DrN68UA/view?usp=sharing" class="image-right">
+<img src="lie.png" class="lie" />
+![](quilt-thumbnail-line.jpg)
+</a>
+
+The point a financial adviser might make with this quilt is to demonstrate that markets can be volitile, but thier management can find the sweet spot for consistent performance. in the case for this quilt, the financial advisor wants to show the "Asset Alloc." colored in light grey. To make it easier to follow, here the featured investment is connected by lines. As can be seen by the graph, the featured asset allocation is consistently in the middle of the graph, showing less volitility than the other investments.
+
+But how much can we trust this display? Let's take a look at the highest peak, which occurs in the year 2008. Even though it is listed as the "best" year in this display, a closer look reveals that the return in this year was -25.4%. 2008 was a year of financial crisis in the U.S., so this investment lost a quarter of its value. But because it performed marginally less worse than the others, it appears as a "good" year.
+
+<a href="https://drive.google.com/file/d/17xOjbdxum5CBUXUV_6P8npYqe1Y_XMmQ/view?usp=sharing" class="image-left">
+![](quilt-zero-adjusted-thumbnail.jpg)
+</a>
+
+We can partially correct the problem by adjusting the quilt to align the zero value. Now the "quilt" is no longer in a rectangular field. It is now clear when an investment grows vs when it shrinks and gives a better indication of the volitility of each.
+
+But even with this correction, the display is still problematic. Even though each value is on the correct side of zero, the position of each cell is not necessarily reflective of the magnitude of the return. A stable investiment can be made to look less stable as other investment returns swing above and below it.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1g8bU6cn7hY8DIPsurU5Ai7HxKTs_bwl8/view?usp=sharing" class="image-right">
+![](asset-magnitudes-thumbnail.jpg)
+</a>
+
+A much better representation is a tool we have been using all along: a simple x-y plot. Here we can see the relative magnitudes of each of the investments and make determinations about their relative returns.
+
+<a href="https://drive.google.com/file/d/1BQ7MENvWeQaqHgT50IxZAJhX91LmfncF/view?usp=sharing" class="image-left">
+![](asset-magnitudes-focus-thumbnail.jpg)
+</a>
+
+If we focus on a few investments, we see that the asset allocation has about the same volitility as the US equities, but with smaller returns.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1y6Js08Qbr-Ntlzf-jXMtCZiUUY2s_7sH/view?usp=sharing" class="image-left">
+![](asset-roi-thumbnail.jpg)
+</a>
+
+Of course, what ultimately matters is not the year-to-year performance but the overall return on investment. To know how much an investment earns, you need to calculate the cumulative gains (or loss), which once again is best represented by a traditional x-y plot.
+
+As we can see here, the asset allocation is not particularly special. The US equities were better performing without the volitility of investments like emerging markets. (Reminder: This is not financial advice. This is an example of data display, not claims about any particular investment.)
+
+So, as can be seen, the asset allocation quilt makes a story that is easy to see with a proper x-y plot more complicated than it needs to be.
