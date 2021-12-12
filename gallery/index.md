@@ -15,6 +15,8 @@ gallery-nav:
     url: "#even-worse-pie-chart"
   - title: Financial Security Blanket
     url: "#financial-security-blanket"
+  - title: At Least it Looks Green
+    url: "#at-least-it-looks-green"
 ---
 
 # VisLies 2021 Gallery
@@ -287,3 +289,28 @@ Of course, what ultimately matters is not the year-to-year performance but the o
 As we can see here, the asset allocation is not particularly special. The US equities were better performing without the volitility of investments like emerging markets. (Reminder: This is not financial advice. This is an example of data display, not claims about any particular investment.)
 
 So, as can be seen, the asset allocation quilt makes a story that is easy to see with a proper x-y plot more complicated than it needs to be.
+
+
+## At Least it Looks Green
+
+<a href="https://drive.google.com/file/d/1uQjqKzK7eMexxfG8GmkydykOViZKinmM/view?usp=sharing" class="image-right">
+![](green-plan-thumbnail.jpg)
+</a>
+
+Just before the VisLies event [Ben Simons] encountered this unhelpful information about the Australian plan to reach zero emissions. For context, this visualization was used during [this news report] proceeding Scott Morrison's (Australian prime minister) [begrudging attendance] of the Glasgow COP26 conference. What we are seeing is an overview of the plan to reduce Australia's carbon emissions. The display is just a one-row table, but gosh it looks pretty.
+
+Despite its simplicity, this graphic is difficult to interpret. If you add up the numbers, you get an emissions reduction of... up to 110%?
+
+As ambitious of a goal that is, Australia is probably not planning to address more than all of its carbon emissions. Note that the first entry is "Reductions to date" (where somehow "today" is one year before the report was released). It's likely that the other reductions are in proportion to the carbon emissions of today, so we can discount the initial "-20%" of carbon emission reductions from today.
+
+But that raises an interesting question of how to interpret the remainder of the numbers. Are those percentages with respect to the carbon emissions of today or of the projected emissions at the time they are implemented. For example, for the -15% emissions labeled "Global tech trends," is that 15% off the emissions of today, or 15% off what is left after the 40% from technology investments (that is, 15% of 60% of what we have today)? If the reductions are applied sequentially, the overall reduction can be as low as 61%.
+
+Ben also notes that much of the plan relies on happenstance technology improvements that are innovated by others ("Global tech trends") and future technology we assume will happen ("New tech"). It may be the case that the "Offsets" category is placed where it is based off technology improvements that we assume will happen.
+
+In fairness, this graphic was created in response to a plan that was [criticized for being vacuous on substance] and was, in retrospect, [never intended to be implemented].
+
+[Ben Simons]: mailto:bsimons@acm.org
+[this news report]: https://drive.google.com/file/d/13zBE2UEWIpTB3shRUiHr9UDm34Aur3FL/view?usp=sharing
+[begrudging attendance]: https://apnews.com/article/climate-change-environment-and-nature-australia-europe-glasgow-a6373b989439b376a43d6c5be9d95421
+[criticized for being vacuous on substance]: https://www.theguardian.com/environment/2021/nov/03/the-pm-goes-to-glasgow-or-what-scott-morrison-didnt-do-at-cop26
+[never intended to be implemented]: https://www.washingtonpost.com/world/2021/11/15/australia-coal-scott-morrison-cop26/
