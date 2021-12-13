@@ -17,6 +17,8 @@ gallery-nav:
     url: "#financial-security-blanket"
   - title: At Least it Looks Green
     url: "#at-least-it-looks-green"
+  - title: Not as Cool as you Think
+    url: "#not-as-cool-as-you-think"
 ---
 
 # VisLies 2021 Gallery
@@ -314,3 +316,23 @@ In fairness, this graphic was created in response to a plan that was [criticized
 [begrudging attendance]: https://apnews.com/article/climate-change-environment-and-nature-australia-europe-glasgow-a6373b989439b376a43d6c5be9d95421
 [criticized for being vacuous on substance]: https://www.theguardian.com/environment/2021/nov/03/the-pm-goes-to-glasgow-or-what-scott-morrison-didnt-do-at-cop26
 [never intended to be implemented]: https://www.washingtonpost.com/world/2021/11/15/australia-coal-scott-morrison-cop26/
+
+
+## Not as Cool as you Think
+
+<a href="https://drive.google.com/file/d/1OK-CNZW0pKH87cOcn5iGHeUbY2nArnVT/view?usp=sharing" class="image-right">
+<img src="lie.png" class="lie" style="top: 80%; left: 80%;" />
+![](ac-report-thumbnail.jpg)
+</a>
+
+[David Borland] just got a new air conditioner. With it came a fancy new thermostat that records usage and comes with an app that allows you to review the energy consumption.
+
+But [David][David Borland] noticed something odd about the reports he was getting. In each bar chart is a dotted line that would seem to suggest some sort of trend or average. But in examples like this, that cannot be the case as the dotted line is clearly lower than all the bars. Such a value cannot, by definition, be an average.
+
+<a href="ac-report-details.png" class="image-left">
+![](ac-report-details.png)
+</a>
+
+Looking deeper into the reports, [David][David Borland] found these details that seem to explain how this line came about. The numbers here correspond to the bar chart shown. The total value does seem to be the sum of the 3 bars. The "average" is the total divided by 7, the number of days in a week. That makes sense for data on a week that has already passed, but it is utter nonsense to consider days that have not yet happened for the average. The suposed average is just a useless item of non-information that is best ignored.
+
+[David Borland]: https://renci.org/staff/david-borland/
