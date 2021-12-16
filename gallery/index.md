@@ -9,6 +9,8 @@ gallery-nav:
     url: "#a-bigger-pool"
   - title: Correlations and Causations
     url: "#correlations-and-causations"
+  - title: Hurry Up and Wait
+    url: "#hurry-up-and-wait"
   - title: Invalid Summary
     url: "#invalid-summary"
   - title: Even Worse Pie Chart
@@ -125,7 +127,7 @@ Likely, the states and territories were divided into 6 even(ish) groups.
 So, what is so bad about providing data that is not scaled per capita?
 This pithy infographic does a great job describing just what can go wrong.
 In a nutshell, a count of just about anything related to people will be proportional to the population count.
-This means pretty much anything can be "proven" despite how rediculous the relationship might be.
+This means pretty much anything can be "proven" despite how ridiculous the relationship might be.
 
 [_Time_ magazine article]: https://time.com/5798168/coronavirus-mortality-rate/
 [a blog post by Stephen Tracy]: https://analythical.com/blog/covid19-in-charts
@@ -143,7 +145,7 @@ This means pretty much anything can be "proven" despite how rediculous the relat
 </a>
 
 Not satisfied with the lies he found in the wild, [Ken Moreland] constructed a VisLie of his own.
-Using data from the [CDC Data Tracker], he pulled information about the number of people vaccinated in each US state as well as the total number of COVID-19 deaths that occured in the state.
+Using data from the [CDC Data Tracker], he pulled information about the number of people vaccinated in each US state as well as the total number of COVID-19 deaths that occurred in the state.
 Plotting these together, we get a clear positive correlation between the two.
 It seems like vaccines are killing the very people they are supposed to protect.
 
@@ -151,7 +153,7 @@ This previous statement is provably false.
 [Studies on COVID-19 vaccine effectiveness] show the opposite: The vaccines are reducing the number of deaths, even [in the face of the delta variant].
 The problem with this plot is the same as the [previous choropleths].
 As before, a count of just about anything related to people will be proportional to the population count.
-This means pretty much anything can be "proven" despite how rediculous the relationship might be.
+This means pretty much anything can be "proven" despite how ridiculous the relationship might be.
 
 <a href="vaccines_good.svg" class="image-left">
 ![](vaccines_good.svg)
@@ -183,13 +185,60 @@ So this plot is likely showing that countries that give more vaccinations also t
 [in his blog]: http://www.drmoron.org/vaccine-correlations/
 
 
+## Hurry Up and Wait
+
+<a href="florida-covid-deaths-8-18.svg" class="image-right">
+<img src="lie.png" class="lie" />
+<img src="florida-covid-deaths-8-18.svg" width="400px"/>
+</a>
+
+The plot here shows the number of deaths (7-day average) [reported for the state of Florida] on August 18, 2021.
+According to this data, the tragedy peaked on August 5 (indicated by the read line) and was in steady decline up to the point the data were collected.
+
+<div class="image-stop" />
+
+<a href="florida-covid-deaths-9-27.svg" class="image-right">
+<img src="lie.png" class="lie" />
+<img src="florida-covid-deaths-9-27.svg" width="400px"/>
+</a>
+
+But now look at data collected from the same source on September 27.
+A plot with this data is shown here, also with a red line on August 5.
+Where the previous data indicated that the number of deaths began to trend downward, we see in this graph the tragedy continued to grow into September with the number of daily deaths eventually tripling by September.
+
+So what gives?
+The problem is that the deaths are being grouped by the date the death happened, not the date the death was reported.
+Because there can be a delay from the time someone dies to when a COVID test happens and is finally reported.
+It can take up to a week for the reports for all COVID deaths in a given day to come in.
+Consequently, the last several items in the report are unreliable.
+When plotting data of this nature, it should be made clear that the tail end of the data is incomplete (or leave them out of the plot).
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1CcYzlHcOYvoazbir8BOGBDmGK3vrAPe3/view?usp=sharing" class="image-left">
+![](florida-covid-illusion-thumbnail.jpg)
+</a>
+
+This effect was shown to us by [David Borland] who shared with us this plot [originally posted by Jordan Mendelson].
+This graphic was originally created as a criticism with how Florida changed their reporting to be by the day the death occurred rather than when the death was reported.
+Others have pointed out [this criticism is probably unfounded] as reporting by the day of death is common practice from many states ([including California]) and is arguably better from a historical perspective.
+
+Regardless of the reasons, this is a great reminder to be skeptical of data that is in the process of being collected.
+The most recent values are likely to be incomplete, which makes the ending trend unreliable.
+
+[reported for the state of Florida]: https://covid.cdc.gov/covid-data-tracker/#trends_dailycases
+[originally posted by Jordan Mendelson]: https://observablehq.com/@aloisius/floridas-illusion-of-recovery
+[this criticism is probably unfounded]: https://www.wsj.com/articles/florida-covid-19-death-coronavirus-reporting-change-miami-herald-journalist-desantis-11630537356
+[including California]: https://covid19.ca.gov/state-dashboard/
+
+
 ## Invalid Summary
 
 <a href="conservative-allocation.png" class="image-right">
 ![](conservative-allocation-thumbnail.png)
 </a>
 
-[Bernice Rogowitz] had a bone to pick with her brokerage firm. In their mobile app they provide a convient summary of her portfolio like that shown here.
+[Bernice Rogowitz] had a bone to pick with her brokerage firm. In their mobile app they provide a convenient summary of her portfolio like that shown here.
 How convenient!
 The graphic shows that her portfolio is divided among 3 different asset classes and that the portfolio is "Conservative."
 
@@ -203,7 +252,7 @@ Fortunately, Bernice is paying more attention to her assets than her brokerage f
 This means that this "conservative" portfolio is _64% high risk_.
 
 So, the summary provided is completely off base.
-Fortunately, Bernice is knowledgable enough to know that the summary provided is utter nonsense.
+Fortunately, Bernice is knowledgeable enough to know that the summary provided is utter nonsense.
 But a more casual investor could be completely mislead with their investments.
 
 [Bernice Rogowitz]: https://sites.google.com/site/bernicerogowitz/
@@ -245,7 +294,7 @@ Which begs the question, what is the point?
 
 Here is an example of an asset allocation quilt that a financial adviser might show you. (You may need to click on it to see details.) The asset allocation quilt is meant to show you the historical performance of a set of investments that are available and, more to the point, convince you to invest in their strategy that they will mange for you.
 
-If you have not yet been presented with an asset allocation quilt, some explenation is probably nessessary. As you can see, the asset allocation quilt is arranged in a grid. Each column represents a time frame (e.g. a year), and each investment type is listed in the column's cells in the order of performance. Each investiment type is given its own unique color, which makes trends easier to follow (and gives the display its name).
+If you have not yet been presented with an asset allocation quilt, some explanation is probably necessary. As you can see, the asset allocation quilt is arranged in a grid. Each column represents a time frame (e.g. a year), and each investment type is listed in the column's cells in the order of performance. Each investment type is given its own unique color, which makes trends easier to follow (and gives the display its name).
 
 <div class="image-stop" />
 
@@ -254,7 +303,7 @@ If you have not yet been presented with an asset allocation quilt, some explenat
 ![](quilt-thumbnail-line.jpg)
 </a>
 
-The point a financial adviser might make with this quilt is to demonstrate that markets can be volitile, but thier management can find the sweet spot for consistent performance. in the case for this quilt, the financial advisor wants to show the "Asset Alloc." colored in light grey. To make it easier to follow, here the featured investment is connected by lines. As can be seen by the graph, the featured asset allocation is consistently in the middle of the graph, showing less volitility than the other investments.
+The point a financial adviser might make with this quilt is to demonstrate that markets can be volatile, but their management can find the sweet spot for consistent performance. in the case for this quilt, the financial advisor wants to show the "Asset Alloc." colored in light gray. To make it easier to follow, here the featured investment is connected by lines. As can be seen by the graph, the featured asset allocation is consistently in the middle of the graph, showing less volatility than the other investments.
 
 But how much can we trust this display? Let's take a look at the highest peak, which occurs in the year 2008. Even though it is listed as the "best" year in this display, a closer look reveals that the return in this year was -25.4%. 2008 was a year of financial crisis in the U.S., so this investment lost a quarter of its value. But because it performed marginally less worse than the others, it appears as a "good" year.
 
@@ -262,9 +311,9 @@ But how much can we trust this display? Let's take a look at the highest peak, w
 ![](quilt-zero-adjusted-thumbnail.jpg)
 </a>
 
-We can partially correct the problem by adjusting the quilt to align the zero value. Now the "quilt" is no longer in a rectangular field. It is now clear when an investment grows vs when it shrinks and gives a better indication of the volitility of each.
+We can partially correct the problem by adjusting the quilt to align the zero value. Now the "quilt" is no longer in a rectangular field. It is now clear when an investment grows vs when it shrinks and gives a better indication of the volatility of each.
 
-But even with this correction, the display is still problematic. Even though each value is on the correct side of zero, the position of each cell is not necessarily reflective of the magnitude of the return. A stable investiment can be made to look less stable as other investment returns swing above and below it.
+But even with this correction, the display is still problematic. Even though each value is on the correct side of zero, the position of each cell is not necessarily reflective of the magnitude of the return. A stable investment can be made to look less stable as other investment returns swing above and below it.
 
 <div class="image-stop" />
 
@@ -278,7 +327,7 @@ A much better representation is a tool we have been using all along: a simple x-
 ![](asset-magnitudes-focus-thumbnail.jpg)
 </a>
 
-If we focus on a few investments, we see that the asset allocation has about the same volitility as the US equities, but with smaller returns.
+If we focus on a few investments, we see that the asset allocation has about the same volatility as the US equities, but with smaller returns.
 
 <div class="image-stop" />
 
@@ -288,7 +337,7 @@ If we focus on a few investments, we see that the asset allocation has about the
 
 Of course, what ultimately matters is not the year-to-year performance but the overall return on investment. To know how much an investment earns, you need to calculate the cumulative gains (or loss), which once again is best represented by a traditional x-y plot.
 
-As we can see here, the asset allocation is not particularly special. The US equities were better performing without the volitility of investments like emerging markets. (Reminder: This is not financial advice. This is an example of data display, not claims about any particular investment.)
+As we can see here, the asset allocation is not particularly special. The US equities were better performing without the volatility of investments like emerging markets. (Reminder: This is not financial advice. This is an example of data display, not claims about any particular investment.)
 
 So, as can be seen, the asset allocation quilt makes a story that is easy to see with a proper x-y plot more complicated than it needs to be.
 
@@ -333,6 +382,6 @@ But [David][David Borland] noticed something odd about the reports he was gettin
 ![](ac-report-details.png)
 </a>
 
-Looking deeper into the reports, [David][David Borland] found these details that seem to explain how this line came about. The numbers here correspond to the bar chart shown. The total value does seem to be the sum of the 3 bars. The "average" is the total divided by 7, the number of days in a week. That makes sense for data on a week that has already passed, but it is utter nonsense to consider days that have not yet happened for the average. The suposed average is just a useless item of non-information that is best ignored.
+Looking deeper into the reports, [David][David Borland] found these details that seem to explain how this line came about. The numbers here correspond to the bar chart shown. The total value does seem to be the sum of the 3 bars. The "average" is the total divided by 7, the number of days in a week. That makes sense for data on a week that has already passed, but it is utter nonsense to consider days that have not yet happened for the average. The supposed average is just a useless item of non-information that is best ignored.
 
 [David Borland]: https://renci.org/staff/david-borland/
