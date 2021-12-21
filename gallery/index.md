@@ -21,6 +21,8 @@ gallery-nav:
     url: "#at-least-it-looks-green"
   - title: Not as Cool as you Think
     url: "#not-as-cool-as-you-think"
+  - title: Less Energy, Smaller Home
+    url: "#less-energy-smaller-home"
 ---
 
 # VisLies 2021 Gallery
@@ -385,3 +387,26 @@ But [David][David Borland] noticed something odd about the reports he was gettin
 Looking deeper into the reports, [David][David Borland] found these details that seem to explain how this line came about. The numbers here correspond to the bar chart shown. The total value does seem to be the sum of the 3 bars. The "average" is the total divided by 7, the number of days in a week. That makes sense for data on a week that has already passed, but it is utter nonsense to consider days that have not yet happened for the average. The supposed average is just a useless item of non-information that is best ignored.
 
 [David Borland]: https://renci.org/staff/david-borland/
+
+
+## Less Energy, Smaller Home
+
+<a href="https://drive.google.com/file/d/176GDkLMUkWOYn116vkYQcuC2VZfDgS8f/view?usp=sharing" class="image-right">
+<img src="lie.png" class="lie" />
+![](home-energy-report-thumbnail.jpg)
+</a>
+
+[Laura Tateosian] recently received this summary as part of her energy usage report.
+The text is clear enough; it compares her energy use with that of an "efficient home."
+But the text is accompanied with a couple of icons in the shapes of houses that represent the two numbers being provided, and these icons make little sense.
+
+The icons are different sizes, and the smaller size does indeed represent the smaller number.
+But the relationship to the numbers end there.
+The smaller number is about 40% that of the larger number, so you would think that the sizes of the icons would be somehow proportional.
+The top of the smaller house is more than 40% than the top of the larger house.
+Likewise, the proportions of the height of the eaves is wrong.
+As far as we can tell, there appears to be no logical measurement of the icons to match the proportions of the numbers.
+
+The icons are clearly meant to show the relative values of the numbers, but in no way do they actually do that.
+
+[Laura Tateosian]: https://lgtateos.github.io/tateos/
