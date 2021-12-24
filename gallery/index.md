@@ -23,6 +23,8 @@ gallery-nav:
     url: "#not-as-cool-as-you-think"
   - title: Less Energy, Smaller Home
     url: "#less-energy-smaller-home"
+  - title: Stately Elements
+    url: "#stately-elements"
 ---
 
 # VisLies 2021 Gallery
@@ -410,3 +412,38 @@ As far as we can tell, there appears to be no logical measurement of the icons t
 The icons are clearly meant to show the relative values of the numbers, but in no way do they actually do that.
 
 [Laura Tateosian]: https://lgtateos.github.io/tateos/
+
+
+## Stately Elements
+
+<a href="https://drive.google.com/file/d/1yTv8g4BM3YWvRX7UU4iQT97eVXDtepIp/view?usp=sharing" class="image-right">
+![](elements-states-thumbnail.jpg)
+
+[David Pugmire] presented this Venn diagram comparing the abbreviations of known chemical elements with the postal codes for U.S. states.
+The diagram shows that of these two groups of things have 17 common items.
+
+This commonality probably means... nothing.
+What does the U.S. state of North Dakota have to do with the element Neodymium?
+Just that they both happen to have the same abbreviation.
+Their names are not even that similar.
+
+[A simple internet search] reveals a number of versions of this diagram.
+Likely, all of these diagrams are made in jest.
+After all, there is no real relationship between chemical elements and U.S. states.
+
+Except that last statement is not true.
+Many elements are [named after places], and two elements are specifically named after states:
+[Californium] and [Tennessine] are named after the U.S. states California and Tennessee, respectively.
+So, if we think about it, there are actually 2 elements that have a real overlap with states.
+These images are unfortunately hiding interesting features about the history and discovery of these elements behind a banal observation that 2 letter abbreviations sometimes overlap.
+
+Ironically, neither of these element/state pairs are actually represented in the overlapped region of the Venn diagram.
+The [Californium] abbreviation, Cf, does not match the California postal code, CA.
+Likewise, the [Tennessine] abbreviation, Ts, does not match the Tennessee postal code, TN.
+So, the Venn diagram fails even in this simple respect.
+
+[David Pugmire]: https://csmd.ornl.gov/profile/dave-pugmire
+[A simple internet search]: https://www.google.com/search?q=chemical+element+us+state+venn+diagram&tbm=isch&ved=2ahUKEwiGlrzLrvv0AhUEU80KHcqBCsUQ2-cCegQIABAA&oq=chemical+element+us+state+venn+diagram&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJ1DiB1iXIGD0I2gAcAB4AIABnwGIAZYLkgEEMi4xMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=-CzFYYa6D4SmtQbKg6qoDA&bih=885&biw=1351&safe=active&hl=en
+[named after places]: https://en.wikipedia.org/wiki/List_of_chemical_elements_named_after_places
+[Californium]: https://en.wikipedia.org/wiki/Californium
+[Tennessine]: https://en.wikipedia.org/wiki/Tennessine
