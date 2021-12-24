@@ -25,6 +25,8 @@ gallery-nav:
     url: "#less-energy-smaller-home"
   - title: Stately Elements
     url: "#stately-elements"
+  - title: Highlighting Sparsity
+    url: "#highlighting-sparsity"
 ---
 
 # VisLies 2021 Gallery
@@ -447,3 +449,53 @@ So, the Venn diagram fails even in this simple respect.
 [named after places]: https://en.wikipedia.org/wiki/List_of_chemical_elements_named_after_places
 [Californium]: https://en.wikipedia.org/wiki/Californium
 [Tennessine]: https://en.wikipedia.org/wiki/Tennessine
+
+
+## Highlighting Sparsity
+
+A problem with [choropleth maps] that has been [discussed previously at VisLies] is that the proportions of the visible elements often do not properly reflect the proportions of the data it is representing.
+The main problem is that data is marked on [choropleth maps] per their area whereas the actual data relate to some other property, such as population.
+Thus, certain areas, such as rural areas, get over represented.
+
+<a href="https://drive.google.com/file/d/1k1QsxDnsB-QhByEWACwv3ziKwmLlF1g7/view?usp=sharing" class="image-right">
+![](equivalent-population-thumbnail.jpg)
+</a>
+
+Nathan Woods highlighted how imbalanced a distribution can be with this choropleth of the U.S.
+This image compares the population of [Los Angeles County], the most populous county in the U.S., with the least populous counties.
+The map shows just how disparate the population across the U.S. is.
+
+However, it should be noted that this map is an exaggeration, and to use it in pretty much any other context is probably a lie.
+Nathan pointed out some problematic elements of this map.
+A good portion of the western U.S. is marked red.
+But notice that some regions in the middle are conspicuously missing.
+The map is carving out all the bigger cities like Denver and Salt Lake City.
+This is clearly inflating the rural area while dividing up the geography in a way that makes it impractical for other comparisons.
+
+<a href="https://drive.google.com/file/d/1mMM78ytZjUTRE4MZEYM8B4gLSKBlcDXu/view?usp=sharing" class="image-left">
+![](federally-owned-land-thumbnail.jpg)
+</a>
+
+Nathan also noted something else interesting about this population map.
+It looks suspiciously similar to the map of federally owned land shown here.
+The U.S. federal government owns land for a variety of reasons including parks, preserves, and defense.
+But one thing they all have in common is that federal land is closed to private ownership or occupation.
+So, it should be no surprise that counties with federal land have smaller populations.
+This is clearly reflected in the large amount of federal land in the western part of the country. But it can also be seen in several places on the eastern side including the north part of Minnesota, Wisconsin, and Michigan as well as near the border of Virginia and West Virginia.
+
+This population map is best used as a cautionary tail to avoid making misleading observations.
+Unfortunately, this very map can be used to make those same misleading observations.
+For example, it has been used to argue for the [availability of land for a growing population].
+However, just because an area is not densely populated does not mean it can sustain more people.
+As we just saw, much of the "available" land is really federally owned and cannot be used.
+Even if these restrictions are lifted, it is not the case that people can simply move into these regions.
+Much of these regions are mountains, desert, or otherwise impractical for sustaining large populations.
+
+This population map is also used to demonstrate inequity in government representation (particularly with the U.S. legislature).
+This map is not appropriate for making any such claims.
+The outline of the regions are in no way representative of how any U.S. government body is selected, and, because of the way the map is draw, the implication is a gross exaggeration.
+
+[choropleth maps]: https://en.wikipedia.org/wiki/Choropleth_map
+[discussed previously at VisLies]: https://www.vislies.org/2019/gallery/#impeachable-geography
+[Los Angeles County]: https://en.wikipedia.org/wiki/Los_Angeles_County,_California
+[availability of land for a growing population]: https://www.lifenews.com/2017/04/26/overpopulation-is-america-running-out-of-space-to-live-no-heres-why/
